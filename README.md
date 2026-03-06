@@ -129,12 +129,6 @@ O script já possui valores padrão, mas você pode personalizar:
 
 Exemplo (PowerShell):
 
-```powershell
-$env:MOEDA_MONITORADA="EURBRL"
-$env:REDIS_TTL="60"
-python monitor.py
-```
-
 ## Exemplo de logs esperados
 
 ```text
@@ -162,4 +156,5 @@ docker compose ps
 - Cache hit/miss com TTL no Redis
 - Persistência de payload bruto no MongoDB com timestamp
 - Série temporal no Cassandra com modelagem por moeda e ordenação temporal
+
 - Grafo de investidores e consulta de alertas no Neo4j
