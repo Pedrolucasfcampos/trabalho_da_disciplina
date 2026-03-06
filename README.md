@@ -127,8 +127,6 @@ O script já possui valores padrão, mas você pode personalizar:
 | `LOOP_INTERVAL` | `10` | Intervalo do loop em segundos |
 | `REQUEST_TIMEOUT` | `10` | Timeout de requisição HTTP |
 
-Exemplo (PowerShell):
-
 ## Exemplo de logs esperados
 
 ```text
@@ -158,3 +156,4 @@ docker compose ps
 - Série temporal no Cassandra com modelagem por moeda e ordenação temporal
 
 - Grafo de investidores e consulta de alertas no Neo4j
+
