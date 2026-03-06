@@ -1,0 +1,5 @@
+requests
+redis
+pymongo
+cassandra-driver
+neo4j
